@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+.text-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 245px;
+    height: 245px;
+    margin-left: 50px;
+  }
+  
+  .name {
+    margin-left: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -40px;
+  }
+
+  .info-name {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+  }
+
+  .contact {
+    /*margin-left: 40px;*/
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  .number {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
+
+  .mail {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 50px;
+  }
