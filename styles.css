@@ -12,7 +12,7 @@
     border-radius: 50%;
     width: 245px;
     height: 245px;
-    margin-left: 50px;
+    margin-left: 250px;
   }
   
   .name {
@@ -35,24 +35,39 @@
   }
 
   .contact {
-    /*margin-left: 40px;*/
     font-size: 40px;
     font-weight: bold;
     margin-top: -50px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 250px;
   }
 
   .number {
     margin-top: 15px;
     font-size: 20px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right:250px;
   }
 
   .mail {
     margin-top: 15px;
     font-size: 20px;
     margin-left: auto;
-    margin-right: 50px;
+    margin-right: 250px;
+  }
+
+  .opis-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .divider {
+    border-top: 3px solid #ccc;
+    margin: 40px 250px;
+  }
+
+  .opis {
+    padding-left: 250px;
+    padding-right: 250px;
   }
