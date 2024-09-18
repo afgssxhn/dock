@@ -1,102 +1,195 @@
 .container {
     display: flex;
     align-items: center;
-  }
-  
+}
+
 .text-container {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .avatar {
+.avatar {
     border-radius: 50%;
     width: 245px;
     height: 245px;
     margin-left: 250px;
-  }
-  
-  .name {
+}
+
+.name {
     margin-left: 40px;
     font-size: 40px;
     font-weight: bold;
     margin-top: -40px;
-  }
+}
 
-  .info-name {
+.info-name {
     margin-left: 40px;
     margin-top: 10px;
     font-size: 20px;
-  }
+}
 
-  .contact-container {
+.contact-container {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-  }
+}
 
-  .contact {
+.contact {
     font-size: 40px;
     font-weight: bold;
     margin-top: -50px;
     margin-left: auto;
     margin-right: 250px;
-  }
+}
 
-  .number {
-    margin-top: 15px;
-    font-size: 20px;
-    margin-left: auto;
-    margin-right:250px;
-  }
-
-  .mail {
+.number {
     margin-top: 15px;
     font-size: 20px;
     margin-left: auto;
     margin-right: 250px;
-  }
+}
 
-  .opis-container {
+.mail {
+    margin-top: 15px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: 250px;
+}
+
+.opis-container {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .divider {
+.divider {
     border-top: 3px solid #ccc;
     margin: 40px 250px;
-  }
+}
 
-  .opis {
+.opis {
     padding-left: 250px;
     padding-right: 250px;
     font-size: 17px;
-  }
+}
 
-  .borderr {
+.borderr {
     margin: 40px 250px;
     table-layout: fixed;
     border-collapse: collapse;
     width: 67%;
-  }
+}
 
-  .borderr th {
+.borderr th {
     text-align: center;
     padding: 5px;
-  }
+}
 
-  .borderr td {
+.borderr td {
     text-align: center;
-  }
+}
 
-  .borderr ul {
+.borderr ul {
     list-style-position: inside;
     padding-left: 10px;
     margin: 1;
-  }
-  
-  .borderr li {
+}
+
+.borderr li {
     padding-left: 5px;
     padding-right: 40px;
     margin-bottom: 5px;
-  }
+}
+
+.zagolovok {
+    margin-top: 40px;
+    background-color: greenyellow;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 0 250px;
+    margin: 40px 250px;
+
+}
+
+.flexo {
+    margin: 40px 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 20px greenyellow;
+    transition: 0.5s;
+}
+
+.wide {
+    width: 49%;
+    outline: 2px solid lightgrey;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.wide2 {
+    width: calc(100% - 500px); /* Учитываем отступы слева и справа */
+    border-radius: 7px;
+    outline: 2px solid lightgrey;
+    margin: 40px 250px; /* Центрируем элемент с отступом сверху и снизу */
+}
+
+
+.textbox1 {
+    border: 0;
+    color: grey;
+    margin-left: 1%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    outline: 0;
+    width: 97%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.textbox2 {
+    border: 0;
+    color: grey;
+    margin-left: 10px;
+    outline: 0;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+textarea {
+    resize: none;
+    width: 97%;
+    height: 200px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.end {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: greenyellow;
+    cursor: pointer;
+}
